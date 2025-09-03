@@ -1,0 +1,66 @@
+/* Building Blocks */
+.text2ColLeft {
+    float: left;
+    width: 49%;
+}
+
+.text2ColRight {
+    float: right;
+    width: 49%;
+}
+
+.text3ColOutside {
+    float: left;
+    width: 32%;
+}
+
+.text3ColInside {
+    float: left;
+    width: 32%;
+    margin: 0 2%;
+}
+
+.textWithImageLeft > img {
+    float: left;
+    max-width: 33%;
+    margin: 7px 1% 0px 1%;
+}
+
+.textWithImageRight > img {
+    float: right;
+    max-width: 33%;
+    margin: 7px 0px 1% 1%;
+}
+
+@media screen and (max-width: 468px) {
+    .text2ColLeft,
+    .text2ColRight {
+        float: none;
+        clear:both;
+        width: 98%;
+        margin: 5% 1%;
+    }
+
+    .textWithImageLeft > img,
+    .textWithImageRight > img {
+        max-width: none;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .textWithImageLeft,
+    .textWithImageRight {
+        margin: 5% 1%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .text3ColInside,
+    .text3ColOutside {
+        float: none;
+        clear:both;
+        width: 98%;
+        margin: 5% 1%;
+    }
+}

@@ -1,0 +1,57 @@
+
+.footer .top_footer.empty { background:none; }
+
+.footer { background-position:right top; }
+
+.footer .top_footer.empty { padding-top:40px; }
+
+.footer .one_fifth { margin-top:10px; }
+.footer .fa-angle-right { color:#FFFFFF; }
+.qlogos ul { margin:0; list-style:none; margin-top:100px; }
+.qlogos ul li { float:right; margin-left:15px; height:63px; }
+.qlogos ul li.last { clear:both; margin-top:5px; }
+
+.footer .logos { width:32%; margin-right:0;  }
+
+ul.faddress img { margin-bottom:20px; }
+
+.features_sec4 { padding-top:80px; padding-bottom:80px; }
+
+.sectorchoose { text-align:center; height:150px; background-color:#f7f7f7;  }
+.sectorchoose .sky-form { width:300px; margin:0 auto; padding-top:30px;  }
+
+.vacancy { }
+.vacancy h5 { font-weight:bold; margin-bottom:0px; font-size:16px; }
+
+
+.vacancydetail {  background: url(../../images/h-arrow-line1.png) no-repeat left bottom; padding-bottom:50px; }
+
+.vacancy { float: left; width: 100%; padding-bottom: 25px; margin-bottom:20px;  background: url(../../images/h-arrow-line1.png) no-repeat left bottom; }
+.vacancyspecs { margin-top:51px; }
+.vacancyspecs ul { width:100%; margin-top:20px; clear:both; }
+.vacancyspecs li { float:left; }
+.vacancyspecs li.col1 { width:22%; font-weight: bold; margin-bottom: 0px; font-size: 15px; }
+.vacancyspecs li.col2 { width:73%; float:right; }
+.vacancybutton { float: right; color: #e54c4c; text-transform: uppercase;border: 1px solid #e1e1e1; padding: 9px 22px; margin-right: 2px; border-radius: 3px; margin-bottom:30px; font-size:20px; font-weight:bold; }
+.clear { clear:both; }
+
+#vacancies-slides .owl-buttons { float:right; }
+#vacancies-slides .owl-prev {  }
+
+.features_sec4 .lblogs { margin-bottom:30px; }
+
+@media only screen and (max-width: 1024px){
+    ul.faddress img { width:150px; }
+    .newsvacancies .lblogs p { min-height:180px; }
+
+
+}
+
+@media only screen and (max-width: 700px){
+    .qlogos ul li { float:left !important; }
+
+
+}
+
+#vacancies-slides .owl-prev { background-image:url(../../images/slide-left.jpg); width:43px; height:43px; display:block; text-indent:-100px;  border-radius: 0px; float:left; }
+#vacancies-slides .owl-next { background-image:url(../../images/slide-right.jpg); width:43px; height:43px; display:block; text-indent:-100px;  border-radius: 0px; float:left; }
